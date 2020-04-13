@@ -1,3 +1,44 @@
-#root {
-    background-color: 'blue';
+body {
+    background: #1e4382;
+     color: white; 
+     font-size: 14px;
+}
+
+html, body, #root {
+    margin:0;
+    height: 100%;
+    width:100%;
+}
+
+ul {
+    padding:0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:50px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-clear {
+    border:none;
+    background: transparent;
+    margin-right: 20px;
+}
+
+.nav-link {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
 }
